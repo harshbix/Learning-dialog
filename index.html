@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=`, initial-scale=1.0" />
+    <title>Learn</title>
+  </head>
+  <body>
+    <style>
+        #my-dialog::backdrop
+        {
+            background-color: rgba(0, 0, 0, 0.533);
+        }
+        button
+        {
+            background-color: blue;
+            padding: 8px;
+            border-radius: 4px;
+            border: none;
+            color: white;
+        }
+    </style>
+    <button id="open">Click Me</button>
+
+    <dialog id="my-dialog">
+      <h1>Dialog Heading</h1>
+      <p>
+        Dialog body : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+      <h6>dialog footer</h6>
+      <button id="close">close</button>
+    </dialog>
+  </body>
+  <script src="app.js"></script>
+</html>
